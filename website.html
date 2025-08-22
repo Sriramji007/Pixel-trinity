@@ -1,143 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to Dr. M.S. Swaminathan</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
+<html>
+  <head>
+  <style>
+    body{
+      background: url(thumbnails/background.jpeg);
+      height: 200px;
+    }
+    .thumbnails{
+      margin-top: -200px;
+      width: 220px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: width 0.65s;
+      opacity: 0.9;
+    }
+    .thumbnails:hover{
+      opacity: 1;
+      width: 250px;
+    }
+    .thumbnail{
+      width: 250px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: width 0.65s;
+      opacity: 0.9;
+    }
+    .thumbnail:hover{
+      opacity: 1;
+      width: 300px;
+    }
+    .image{
+      margin-left: 150px;
+      margin-top: 150px;
+    }
+    .bb{
+      font-family: arial;
+      font-weight: bold;
+      color:black;
+      font-size:25px;
+      width:300px;
+    }
+    .space{
+      margin-bottom: 250px;
+      margin-top: 20px;
+    }
+    .inq{
+      font-size: 30px;
+      font-family: Arial;
+    }
+    .space1{
+      margin-bottom: 50px;
+    }
+  </style>
+  <head>
+    <title>Great minds of india</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap" rel="stylesheet"
+  <body>
+    <right class="image">
+</right>
+    <div>
+    <center>
+      <h1 class="space">Mankombu Sambasivan Swaminathan</h1>
+      <bottom>
+<img class="thumbnails" src="thumbnails/Ms swamy.jpeg">
+</bottom>
+<p class="bb">
+(7 August 1925 &#8211; 28 September 2023) 
+</p>
+<p class="inq">
+  He was an Indian geneticist and plant breeder, administrator and humanitarian.<br> Swaminathan was a global leader of the green revolution.<br> He has been called the main architect of the green revolution in India<br> for his leadership and role in introducing and further developing high-yielding varieties of wheat and rice.
+</p>
+</center>
+<hr>
+<center>
+  <h1 class="space1">
+    ACHIVEMENTS
+  </h1>
+  <img class="thumbnail" src="thumbnails/Apj.jpeg">
+  <p class="inq">
+    His leadership as director general of the International Rice Research Institute (IRRI)<br> in the Philippines was instrumental in his being awarded the first World Food Prize in 1987,<br> recognized as one of the highest honours in the field of agriculture.<br> The United Nations Environment Programme has called him "the Father of Economic Ecology".<br> He was recently conferred the Bharat Ratna, the highest civilian award of the Republic of India, in 2024.
+  </p>
+</center>
+<hr>
+<center>
+  <h1 class="space1">GREEN REVOLUTION</h1>
+<img class="thumbnail" src="thumbnails/green.jpeg">
+<p class="inq">
+  M.S. Swaminathan was the architect of India's Green Revolution, introducing high-yielding <br>wheat and rice varieties to significantly increase crop productivity in the 1960s and 1970s.<br> He worked with Dr. Norman Borlaug and other officials to combat food shortages, transforming Indian agriculture by integrating<br> new technologies like HYV seeds, fertilizers, and pesticides. His work is credited with saving millions from starvation and establishing India's food security.
+</p>
 
-        header {
-            background: #006400;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            margin: 0;
-            font-size: 1.2rem;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px 0;
-        }
-
-        .main-content {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        .section {
-            margin-bottom: 20px;
-        }
-
-        .section h2 {
-            color: #006400;
-            border-bottom: 2px solid #006400;
-            padding-bottom: 10px;
-        }
-
-        .bio-image {
-            float: left;
-            margin: 0 20px 20px 0;
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .awards-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .awards-list li {
-            background: #e9f5e9;
-            margin-bottom: 10px;
-            padding: 10px;
-            border-left: 5px solid #006400;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Dr. M.S. Swaminathan</h1>
-        <p>Architect of the Indian Green Revolution</p>
-    </header>
-
-    <div class="container">
-        <div class="main-content">
-            <div class="section">
-                <h2>About Dr. M.S. Swaminathan</h2>
-                <img src="thumbnails/Ms swamy.jpeg"class="bio-image">
-                <p>
-                    Mankombu Sambasivan Swaminathan (7 August 1925 – 28 September 2023) was an Indian agronomist, agricultural scientist, plant geneticist, administrator, and humanitarian. A global leader of the green revolution, he is widely known as the "Father of the Green Revolution in India" for his role in introducing and further developing high-yielding varieties of wheat and rice. Swaminathan's collaborative scientific efforts with Norman Borlaug, spearheading a mass movement with farmers and other scientists, saved India and Pakistan from certain famine-like conditions in the 1960s.
-                </p>
-                <p>
-                    His leadership as the Director General of the Indian Council of Agricultural Research (ICAR) and later the International Rice Research Institute (IRRI) was instrumental in the development of sustainable and pro-poor agricultural policies. He was a passionate advocate for moving from a "green" to an "evergreen revolution" to ensure productivity in perpetuity without associated ecological harm.
-                </p>
-            </div>
-
-            <div class="section">
-                <h2>The Green Revolution</h2>
-                <p>
-                    The Green Revolution was a period when agricultural productivity in India increased significantly due to the adoption of new technologies. Dr. Swaminathan was the main architect of this revolution. He worked on adapting and introducing high-yielding dwarf wheat varieties from Mexico to Indian fields. This, combined with the use of fertilizers and modern irrigation techniques, led to a massive increase in food grain production, making India self-sufficient in food.
-                </p>
-                <p>
-                    His work involved not just scientific innovation but also a deep understanding of the socio-economic conditions of Indian farmers. He championed the cause of small and marginal farmers, ensuring that the benefits of new technologies reached them.
-                </p>
-            </div>
-
-            <div class="section">
-                <h2>Awards and Honours</h2>
-                <p>Dr. Swaminathan's contributions were recognized globally. He was the recipient of numerous awards and honors, including:</p>
-                <ul class="awards-list">
-                    <li><strong><a href="https://www.thehindu.com/opinion/lead/a-tribute-to-ms-swaminathan-the-man-who-fed-india/article69952641.ece">Padma Shri</a></strong> (1967)</li>
-                    <li><strong>Ramon Magsaysay Award</strong> (1971)</li>
-                    <li><strong>Padma Bhushan</strong> (1972)</li>
-                    <li><strong>Albert Einstein World Science Award</strong> (1986)</li>
-                    <li>The first <strong>World Food Prize</strong> (1987)</li>
-                    <li><strong>Padma Vibhushan</strong> (1989)</li>
-                    <li><strong>Bharat Ratna</strong> (2024, posthumously)</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Legacy</h2>
-                <p>
-                    Dr. M.S. Swaminathan's legacy extends far beyond the Green Revolution. He founded the M.S. Swaminathan Research Foundation (MSSRF) in Chennai in 1988, which works on sustainable and equitable development. His vision of an "Evergreen Revolution" continues to inspire agricultural research and policy-making aimed at achieving sustainable food security. He remained a guiding force in Indian and global agriculture until his passing, leaving behind a legacy of service, innovation, and unwavering commitment to a hunger-free world.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Tribute to Dr. M.S. Swaminathan. All Rights Reserved.</p>
-    </footer>
-</body>
+</center>
+  </body>
 </html>
